@@ -22,6 +22,7 @@ h1{
     background: rgb(248, 246, 245);
 }
 nav{
+    image-orientation: inherit;
     justify-content: right;
     text-align: right;
     margin-right: 14rem;
