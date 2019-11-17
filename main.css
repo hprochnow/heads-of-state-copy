@@ -8,10 +8,11 @@ html {
     box-sizing: inherit;
   }
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
 }
-
-
+h1{
+    font-family: 'Lora', serif;
+}
 .container{
     display: grid;
     grid-gap: 2rem;
