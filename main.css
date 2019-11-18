@@ -22,7 +22,6 @@ h1{
     background: rgb(248, 246, 245);
 }
 nav{
-    image-orientation: inherit;
     justify-content: right;
     text-align: right;
     margin-right: 14rem;
@@ -30,6 +29,9 @@ nav{
     font-size: 12px;
     line-height: 1.1;
     color: rgb(161, 161, 161);
+}
+.nav-icon{
+    float: right;
 }
 .card{
     margin: 8rem;
