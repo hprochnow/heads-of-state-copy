@@ -22,7 +22,7 @@ h2{
 .container{
     display: grid;
     grid-gap: 2rem;
-    grid-template-columns: 800px, 800px;
+    grid-template-columns: 800px 800px;
     grid-auto-columns: 25rem;  
     background: rgb(248, 246, 245);
     text-align: center;
@@ -40,7 +40,7 @@ nav{
 }
 .nav-icon{
     display: flex;
-    align-items: right;
+    align-items: flex-end;
 }
 .card_title{
     margin-left: 8rem;
