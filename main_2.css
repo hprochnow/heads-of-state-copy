@@ -16,6 +16,9 @@ h1{
     color: rgb(51, 51, 51);
     padding: .5rem;
 }
+h2{
+    margin: 2rem;
+}
 
 .container{
     display: grid;
@@ -35,6 +38,10 @@ nav{
     font-size: 12px;
     line-height: 1.1;
     color: rgb(161, 161, 161);
+    justify-content: space-evenly;
+}
+ul{
+    list-style-type: none;
 }
 .menu-icon{
     display: flex;
@@ -47,11 +54,14 @@ nav{
     justify-content: right;
 }
 .card_title{
+    display: flex;
+    align-items: center;
     margin-left: 8rem;
     border-color: black;
+
 }
 .card{
-    margin: 8rem;
+    margin: 2rem;
     background: lightgrey;
     padding: 4rem;
     display: block;
@@ -59,6 +69,7 @@ nav{
     list-style-type: none;
 
 }
+
 button{
     font-family: 'Lora', serif;
     font-size: 18px;
