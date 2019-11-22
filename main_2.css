@@ -16,9 +16,7 @@ h1{
     color: rgb(51, 51, 51);
     padding: .5rem;
 }
-h2{
-    text-decoration: underline;
-}
+
 .container{
     display: grid;
     grid-gap: 2rem;
@@ -38,9 +36,15 @@ nav{
     line-height: 1.1;
     color: rgb(161, 161, 161);
 }
+.menu-icon{
+    display: flex;
+    align-items: flex-start;
+    margin-right: 5rem;
+}
 .nav-icon{
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
+    justify-content: right;
 }
 .card_title{
     margin-left: 8rem;
@@ -52,6 +56,7 @@ nav{
     padding: 4rem;
     display: block;
     text-align: left;
+    list-style-type: none;
 
 }
 button{
@@ -73,6 +78,7 @@ button{
     padding: .5rem;
     padding-left: 8rem;
     padding-right: 8rem;  
+    margin: 2rem;
 }
 .item{
     grid-column: span 1;
@@ -101,6 +107,7 @@ button{
 }
 .item7{
     grid-column: span 2;
+    list-style-type: none;
 }
 .item8{
     grid-column: span 2;
@@ -112,11 +119,19 @@ button{
 
 .footer{
     padding: 2rem;
-    list-style: none;
+    list-style-type: none;
     display: flex;
     align-items: stretch;
     flex-direction:row;
     flex-wrap: wrap;
-    list-style: none;
+    justify-content: space-around;
+}
+.footer-contact{
+    display: flex;
+    align-items: stretch;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-between
+
 }
 
