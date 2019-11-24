@@ -18,15 +18,18 @@ h1{
 }
 h2{
     margin: 2rem;
+    color: rgb(51, 51, 51);
+    
 }
 
 .container{
     display: grid;
     grid-gap: 2rem;
-    grid-template-columns: 800px 800px;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     grid-auto-columns: 25rem;  
     background: rgb(248, 246, 245);
     text-align: center;
+    max-width: 120rem;
 }
 nav{
     display: flex;
@@ -57,17 +60,14 @@ ul{
     display: flex;
     align-items: center;
     margin-left: 8rem;
-    border-color: black;
-
 }
 .card{
     margin: 2rem;
     background: lightgrey;
     padding: 4rem;
-    display: block;
+    display: flex;
     text-align: left;
-    list-style-type: none;
-
+    justify-content: space-between;
 }
 
 button{
@@ -78,6 +78,7 @@ button{
     text-align: center;
     background: rgb(170, 169, 169);
     padding: 1.5rem;
+    margin: 2 rem;
 }
 .button_footer{
     font-family: 'Lora', serif;
