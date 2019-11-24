@@ -52,7 +52,7 @@ ul{
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-
+    justify-content: center;
 }
 .logo-1{
     float: left; 
@@ -144,20 +144,14 @@ button{
 }
 
 .footer{
+    font-size: x-small;
     padding: 2rem;
-    list-style-type: none;
+    background-color: rgb(61, 60, 60);
     display: flex;
     align-items: stretch;
     flex-direction:row;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.footer-contact{
-    display: flex;
-    align-items: stretch;
-    flex-direction:row;
-    flex-wrap: wrap;
-    justify-content: space-between
 
-}
 
