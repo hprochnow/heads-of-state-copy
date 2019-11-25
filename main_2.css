@@ -142,12 +142,15 @@ button{
 .item9{
     grid-column: span 2;
 }
+.container-footer{
+    display: inline;
+}
 
 .footer{
     font-size: x-small;
     padding: 2rem;
     background-color: rgb(61, 60, 60);
-    display: flex;
+    display: inline-flex;
     align-items: stretch;
     flex-direction:row;
     flex-wrap: wrap;
