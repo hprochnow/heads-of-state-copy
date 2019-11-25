@@ -46,6 +46,7 @@ nav{
 }
 ul{
     list-style-type: none;
+    margin: 1rem;
 }
 
 .logos{
@@ -93,7 +94,7 @@ button{
     text-align: center;
     background: rgb(170, 169, 169);
     padding: 1.5rem;
-    margin: 2 rem;
+    margin: 2rem;
 }
 .button_footer{
     font-family: 'Lora', serif;
@@ -143,18 +144,28 @@ button{
     grid-column: span 2;
 }
 .container-footer{
-    display: inline;
+    display: flex;
+    align-items: stretch;
+    flex-direction:row;
+    justify-content: space-between;
 }
 
 .footer{
     font-size: x-small;
     padding: 2rem;
     background-color: rgb(61, 60, 60);
-    display: inline-flex;
+    flex-flow: wrap;
+    margin: 1rem;
+
+}
+.footer-contact{
+    display: flex;
     align-items: stretch;
     flex-direction:row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between
+
 }
+
 
 
