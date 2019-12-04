@@ -21,6 +21,13 @@ h1{
     grid-template-rows: repeat(auto-fit, minmax(100px, 1fr)); 
     background: rgb(248, 246, 245);
 }
+.container-project{
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-rows: 300px 300px 300px; 
+    background: rgb(248, 246, 245);
+
+}
 nav{
     justify-content: right;
     text-align: right;
@@ -49,8 +56,19 @@ button{
     background: rgb(170, 169, 169);
     padding: 1.5rem;
 }
+.item{
+    grid-column: span 1;
+}
 .item1{
     color: salmon;
+    grid-column: span 2;
+}
+.item2{
+    color: saddlebrown;
+    grid-row: span 3;
+}
+.item3{
+    grid-column: span 5;
 }
 footer{
     text-align:center;
