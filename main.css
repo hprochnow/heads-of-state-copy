@@ -24,18 +24,22 @@ h1{
 .container-project{
     display: grid;
     grid-gap: 2rem;
-    grid-template-rows: 300px 300px 300px; 
+    grid-template-columns: repeat(4, [col] 150px ) ;
+    grid-template-rows: repeat(2, [row] auto  ); 
     background: rgb(248, 246, 245);
-
+    color: slateblue;
 }
 nav{
-    justify-content: right;
-    text-align: right;
+    display: flex;
+    background-color: rgb(248, 246, 245);
+    align-items: stretch;
+    flex-direction:row;
     margin-right: 14rem;
     font-family: 'Lora', serif;
     font-size: 12px;
     line-height: 1.1;
     color: rgb(161, 161, 161);
+    justify-content: space-evenly;
 }
 .nav-icon{
     float: right;
