@@ -54,6 +54,7 @@ nav{
 }
 .card{
     margin: 8rem;
+    margin-bottom: 2rem;
     padding: 2rem;
     display: block;
     text-align: center;
@@ -62,6 +63,7 @@ nav{
 .card-projects{
     display:grid;
     grid-template-columns: 500px 500px 500px;
+    margin-top: 2rem;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
@@ -75,6 +77,10 @@ button{
     background: rgb(170, 169, 169);
     padding: 1.5rem;
     margin: 2rem;
+}
+.item{
+    max-width: 25%;
+
 }
 .button_footer{
     font-family: 'Lora', serif;
