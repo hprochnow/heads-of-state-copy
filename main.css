@@ -21,14 +21,6 @@ h1{
     grid-template-rows: repeat(auto-fit, minmax(100px, 1fr)); 
     background: rgb(248, 246, 245);
 }
-.container-project{
-    display: grid;
-    grid-gap: 2rem;
-    grid-template-columns: repeat(4, [col] 150px ) ;
-    grid-template-rows: repeat(2, [row] auto  ); 
-    background: rgb(248, 246, 245);
-    color: slateblue;
-}
 nav{
     display: flex;
     background-color: rgb(248, 246, 245);
@@ -48,19 +40,27 @@ nav{
 .menu-icon{
     display: flex;
     align-items: flex-start;
-    margin-right: 10rem;
+    margin-right: 0rem;
 }
 .nav-icon{
     display: flex;
     align-items: flex-start;
     justify-content: right;
-    margin-left: 10rem;
+    margin-left: 0rem;
 }
 .card{
     margin: 8rem;
     padding: 2rem;
     display: block;
     text-align: center;
+    justify-content: center;
+}
+.card-projects{
+    display:grid;
+    grid-template-columns: 500px 500px 500px;
+    grid-gap: 2rem;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: center;
 }
 button{
