@@ -17,6 +17,7 @@ h1{
 }
 ul{
     list-style-type: none;
+    justify-items: center;
     margin: 1rem;
 }
 .container{
@@ -97,24 +98,55 @@ button{
 .container-footer{
     display: grid;
     grid-template-columns: 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px;
     align-items: stretch;
-    flex-direction:row;
-    justify-content: space-between;
-}
-
-.footer{
+    justify-items: center;
     font-size: x-small;
     padding: 2rem;
     background-color: rgb(61, 60, 60);
     flex-flow: wrap;
     margin: 1rem;
-
 }
-.footer-contact{
-    display: flex;
+.container-menu{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px;
     align-items: stretch;
-    flex-direction:row;
-    flex-wrap: wrap;
-    justify-content: space-between
+    justify-items: center;
+    font-size: x-small;
+    padding: 2rem;
+    background-color: rgb(61, 60, 60);
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
 
+.object1{
+    grid-column: span 6;
+}
+.object2{
+    grid-row: span 6;
+}
+.object3{
+    grid-row: span 6;
+}
+.object4{
+    grid-row: span 6;
+}
+.object5{
+    grid-row: span 6;
+}
+.object6{
+    grid-row: span 6;
+}
+.object7{
+    grid-row: span 6;
+}
+.object8{
+    grid-row: span 6;
+}
+.object9{
+    grid-column: span 6;
+}
+.object10{
+    grid-column: span 6;
 }
