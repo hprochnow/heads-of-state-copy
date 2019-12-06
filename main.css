@@ -83,20 +83,7 @@ button{
     padding-left: 8rem;
     padding-right: 8rem;  
     margin: 2rem;
-.item{
-    grid-column: span 1;
-}
-.item1{
-    color: salmon;
-    grid-column: span 2;
-}
-.item2{
-    color: saddlebrown;
-    grid-row: span 3;
-}
-.item3{
-    grid-column: span 5;
-}
+}   
 footer{
     text-align:center;
     list-style: none;
