@@ -36,6 +36,8 @@ ul{
     margin: 1rem;
 }
 
+/** page-header **/
+
 .logo-1{
     float: left;
     margin-right: 4rem; 
@@ -70,18 +72,18 @@ ul{
     margin: 0.5rem;
 
 }
-.fas fa-bars{
-    margin-left: 0.5rem;
-}
 .logo-icon{
     width: 2rem;
 
+/** components **/    
 }
 .component-card{
     margin: 2rem;
     background: lightgrey;
     padding: 4rem;
 }
+
+/** buttons **/
 
 button{
     font-family: 'Lora', serif;
@@ -105,6 +107,9 @@ button{
     padding-right: 8rem;  
     margin: 2rem;
 }
+
+/** page-footer **/
+
 .container-footer{
     display: flex;
     align-items: stretch;
@@ -112,7 +117,7 @@ button{
     justify-content: space-between;
 }
 
-.footer{
+.page-footer_nav{
     font-size: x-small;
     padding: 2rem;
     background-color: rgb(61, 60, 60);
