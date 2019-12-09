@@ -71,13 +71,17 @@ ul{
     text-transform: none;
     font-size: 1rem;
     margin: 0.5rem;
-
+}
+.page-header_menu{
+    margin-right: 0.5rem;
+    font-size: 0.8rem;
 }
 .logo-icon{
     width: 2rem;
+}    
 
 /** components **/    
-}
+
 .component-card{
     margin: 2rem;
     background: lightgrey;
@@ -101,6 +105,7 @@ ul{
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
+    max-width: 30%;
 }
 
 
@@ -132,6 +137,7 @@ background: rgb(170, 169, 169);
     max-width: 36rem;
     margin: auto;
     text-align: center;
+    color:rgb(207, 205, 205);
 }
 .page-footer-nav{
     max-width: 36rem;
@@ -143,17 +149,15 @@ background: rgb(170, 169, 169);
     font-size: 0.8rem;
     text-transform: uppercase;
     font-family: 'Lora', serif;
-    color: rgb(207, 205, 205);
+    
 }
 .page-footer-contact{
     font-family: 'Lora', serif;
-    color: rgb(207, 205, 205);
     padding: 2rem;
 }
 .page-footer-contact_email{
     font-family: 'Noto Sans JP', sans-serif;
     font-size:0.8rem ;
-    color: rgb(207, 205, 205);
     padding: 0.5rem;
 }
 
