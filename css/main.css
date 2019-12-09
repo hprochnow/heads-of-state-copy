@@ -21,7 +21,9 @@ ul{
     margin: 1rem;
 }
 .container{
- 
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr)); 
     background: rgb(248, 246, 245);
 }
 nav{
@@ -93,58 +95,36 @@ button{
     padding-right: 8rem;  
     margin: 2rem;
 }   
-.container-footer{
-    display: grid;
-    grid-template-columns: 100px 100px 100px 100px 100px 100px;
-    grid-template-rows: 100px 100px 100px 100px 100px;
-    align-items: stretch;
-    justify-items: center;
-    font-size: x-small;
-    padding: 2rem;
+/** page-footer **/
+.page-footer{
     background-color: rgb(61, 60, 60);
-    flex-flow: wrap;
-    margin: 1rem;
-}
-.container-menu{
-    display: grid;
-    grid-template-columns: 100px 100px 100px 100px 100px 100px;
-    grid-template-rows: 100px 100px 100px 100px 100px;
-    align-items: stretch;
-    justify-items: center;
-    font-size: x-small;
     padding: 2rem;
-    background-color: rgb(61, 60, 60);
-    margin-left: 8rem;
-    margin-right: 8rem;
 }
-
-.object1{
-    grid-column: span 6;
+.page-footer_container{
+    max-width: 36rem;
+    margin: auto;
+    text-align: center;
 }
-.object2{
-    grid-row: span 6;
+.page-footer-nav{
+    max-width: 36rem;
+    margin: auto;
 }
-.object3{
-    grid-row: span 6;
+.page-footer-nav_list{
+    display: flex;
+    justify-content:space-between;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-family: 'Lora', serif;
+    color: rgb(207, 205, 205);
 }
-.object4{
-    grid-row: span 6;
+.page-footer-contact{
+    font-family: 'Lora', serif;
+    color: rgb(207, 205, 205);
+    padding: 2rem;
 }
-.object5{
-    grid-row: span 6;
-}
-.object6{
-    grid-row: span 6;
-}
-.object7{
-    grid-row: span 6;
-}
-.object8{
-    grid-row: span 6;
-}
-.object9{
-    grid-column: span 6;
-}
-.object10{
-    grid-column: span 6;
+.page-footer-contact_email{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size:0.8rem ;
+    color: rgb(207, 205, 205);
+    padding: 0.5rem;
 }
