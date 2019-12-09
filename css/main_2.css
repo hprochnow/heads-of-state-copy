@@ -91,47 +91,48 @@ button{
     color: rgb(82, 81, 81);
     border: 0;
     text-align: center;
-    background: rgb(170, 169, 169);
+    background: rgb(207, 205, 205);
     padding: 1.5rem;
-    margin: 2rem;
+    margin: 1rem auto
 }
-.button_footer{
-    font-family: 'Lora', serif;
-    font-size: 18px;
-    color: rgb(82, 81, 81);
-    border: black 2px;
-    text-align: center;
-    background: rgb(170, 169, 169);
-    padding: .5rem;
-    padding-left: 8rem;
-    padding-right: 8rem;  
-    margin: 2rem;
+.button-wide{
+display: block;
+max-width: 66%;
+margin: 1rem auto;
+background: rgb(170, 169, 169);
 }
 
 /** page-footer **/
-
-.container-footer{
-    display: flex;
-    align-items: stretch;
-    flex-direction:row;
-    justify-content: space-between;
-}
-
-.page-footer_nav{
-    font-size: x-small;
-    padding: 2rem;
+.page-footer{
     background-color: rgb(61, 60, 60);
-    flex-flow: wrap;
-    margin: 1rem;
-
+    padding: 2rem;
 }
-.footer-contact{
+.page-footer_container{
+    max-width: 36rem;
+    margin: auto;
+    text-align: center;
+}
+.page-footer-nav{
+    max-width: 36rem;
+    margin: auto;
+}
+.page-footer-nav_list{
     display: flex;
-    align-items: stretch;
-    flex-direction:row;
-    flex-wrap: wrap;
-    justify-content: space-between
-
+    justify-content:space-between;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-family: 'Lora', serif;
+    color: rgb(207, 205, 205);
+}
+.page-footer-contact{
+    font-family: 'Lora', serif;
+    color: rgb(207, 205, 205);
+    padding: 2rem;
+}
+.page-footer-contact_email{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: rgb(207, 205, 205);
+    padding: 0.5rem;
 }
 
 
