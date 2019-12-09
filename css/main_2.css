@@ -92,6 +92,7 @@ ul{
     display: block;
     text-align: center;
     justify-content: center;
+    background: rgb(248, 246, 245);
 }
 .card-projects{
     display:grid;
